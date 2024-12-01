@@ -1,0 +1,15 @@
+---
+# aqua - Declarative CLI Version Manager
+# https://aquaproj.github.io/
+# checksum:
+#   enabled: true
+#   require_checksum: true
+#   supported_envs:
+#   - all
+registries:
+- type: standard
+  ref: v4.254.0 # renovate: depName=aquaproj/aqua-registry
+packages:
+- name: argoproj/argo-cd@v2.13.0
+- name: helm/helm@v3.16.3
+- name: kubernetes-sigs/kustomize@kustomize/v5.5.0
